@@ -1,1 +1,10 @@
 *.class
+*.userprefs
+bin/
+obj/
+target/
+gen/
+classes/
+deploy/
+gdx-workshop-html/war/WEB-INF/lib/gwt-servlet.jar
+com.badlogic.gdx.workshop.GdxWorkshopHtml/
