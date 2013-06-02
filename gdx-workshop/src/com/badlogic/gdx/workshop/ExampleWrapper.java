@@ -5,6 +5,7 @@ import com.badlogic.gdx.workshop.graphics.basic.FullscreenExample;
 import com.badlogic.gdx.workshop.graphics.basic.GraphicsQueryingExample;
 import com.badlogic.gdx.workshop.graphics.basic.NonContinuousExample;
 import com.badlogic.gdx.workshop.graphics.basic.VsynchExample;
+import com.badlogic.gdx.workshop.graphics.glbasic.ClearScreenExample;
 
 /**
  * Instantiates an {@link ApplicationListener} in the {@link #create()} method. Set
@@ -18,7 +19,7 @@ public class ExampleWrapper implements ApplicationListener {
 	
 	@Override
 	public void create() {
-		listener = new NonContinuousExample();
+		listener = new ClearScreenExample();
 		listener.create();
 	}
 

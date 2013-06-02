@@ -7,7 +7,8 @@ import com.badlogic.gdx.Graphics;
 /**
  * Demonstrates non-continuous rendering. Rendering
  * is only performed when we ask for it ({@link Graphics#requestRendering()})
- * or when an input event occurs.
+ * or when an input event occurs. On Android, touch the
+ * screen to trigger rendering.
  * @author badlogic
  *
  */
