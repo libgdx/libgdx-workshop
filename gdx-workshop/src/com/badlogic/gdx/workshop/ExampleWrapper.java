@@ -2,6 +2,7 @@ package com.badlogic.gdx.workshop;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.workshop.graphics.basic.GraphicsQueryingExample;
+import com.badlogic.gdx.workshop.graphics.basic.VsynchExample;
 
 /**
  * Instantiates an {@link ApplicationListener} in the {@link #create()} method. Set
@@ -15,7 +16,7 @@ public class ExampleWrapper implements ApplicationListener {
 	
 	@Override
 	public void create() {
-		listener = new GraphicsQueryingExample();
+		listener = new VsynchExample();
 		listener.create();
 	}
 
