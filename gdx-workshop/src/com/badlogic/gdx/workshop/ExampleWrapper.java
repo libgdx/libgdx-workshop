@@ -1,7 +1,7 @@
 package com.badlogic.gdx.workshop;
 
 import com.badlogic.gdx.ApplicationListener;
-import com.badlogic.gdx.workshop.net.OpenBrowserExample;
+import com.badlogic.gdx.workshop.input.PollingExample;
 
 /**
  * Instantiates an {@link ApplicationListener} in the {@link #create()} method. Set
@@ -15,7 +15,7 @@ public class ExampleWrapper implements ApplicationListener {
 	
 	@Override
 	public void create() {
-		listener = new OpenBrowserExample();
+		listener = new PollingExample();
 		listener.create();
 	}
 
