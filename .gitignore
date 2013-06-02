@@ -6,5 +6,7 @@ target/
 gen/
 classes/
 deploy/
+gdx-workshop-html/gwt-unitCache/
+gdx-workshop-html/war/assets/
 gdx-workshop-html/war/WEB-INF/lib/gwt-servlet.jar
 com.badlogic.gdx.workshop.GdxWorkshopHtml/

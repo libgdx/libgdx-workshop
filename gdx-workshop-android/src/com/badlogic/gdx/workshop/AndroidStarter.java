@@ -13,6 +13,6 @@ public class AndroidStarter extends AndroidApplication {
         AndroidApplicationConfiguration cfg = new AndroidApplicationConfiguration();
         cfg.useGL20 = false;
         
-        initialize(new MyApplicationListener(), cfg);
+        initialize(new ExampleWrapper(), cfg);
     }
 }
