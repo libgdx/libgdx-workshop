@@ -183,5 +183,11 @@
     <Content Include="..\gdx-workshop-android\assets\data\test.txt">
       <Link>data\test.txt</Link>
     </Content>
+    <Content Include="..\gdx-workshop-android\assets\data\shot.wav">
+      <Link>data\shot.wav</Link>
+    </Content>
+    <Content Include="..\gdx-workshop-android\assets\data\music.mp3">
+      <Link>data\music.mp3</Link>
+    </Content>
   </ItemGroup>
 </Project>

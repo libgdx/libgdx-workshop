@@ -1,7 +1,7 @@
 package com.badlogic.gdx.workshop;
 
 import com.badlogic.gdx.ApplicationListener;
-import com.badlogic.gdx.workshop.input.TextDialogExample;
+import com.badlogic.gdx.workshop.audio.MusicExample;
 
 /**
  * Instantiates an {@link ApplicationListener} in the {@link #create()} method. Set
@@ -15,7 +15,7 @@ public class ExampleWrapper implements ApplicationListener {
 	
 	@Override
 	public void create() {
-		listener = new TextDialogExample();
+		listener = new MusicExample();
 		listener.create();
 	}
 
