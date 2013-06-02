@@ -7,7 +7,6 @@ public class DesktopStarter {
 	public static void main(String[] args) {
 		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
 		cfg.title = "gdx-workshop";
-		cfg.useGL20 = true;
 		cfg.width = 480;
 		cfg.height = 320;
 		

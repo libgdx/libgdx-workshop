@@ -6,6 +6,7 @@ import com.badlogic.gdx.workshop.graphics.basic.GraphicsQueryingExample;
 import com.badlogic.gdx.workshop.graphics.basic.NonContinuousExample;
 import com.badlogic.gdx.workshop.graphics.basic.VsynchExample;
 import com.badlogic.gdx.workshop.graphics.glbasic.ClearScreenExample;
+import com.badlogic.gdx.workshop.graphics.glbasic.TriangleExample;
 
 /**
  * Instantiates an {@link ApplicationListener} in the {@link #create()} method. Set
@@ -19,7 +20,7 @@ public class ExampleWrapper implements ApplicationListener {
 	
 	@Override
 	public void create() {
-		listener = new ClearScreenExample();
+		listener = new TriangleExample();
 		listener.create();
 	}
 

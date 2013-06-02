@@ -18,7 +18,7 @@ public class ClearScreenExample extends ApplicationAdapter {
 		// set the color to clear the screen with (pink)
 		Gdx.gl.glClearColor(1, 0, 1, 1);
 		
-		// clear the screen
+		// clear the screeng
 		Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
 	}
 }
