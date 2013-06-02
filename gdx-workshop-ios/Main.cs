@@ -13,7 +13,7 @@ namespace com.badlogic.gdx.workshop
 	{
 		[Register ("AppDelegate")]
 		public partial class AppDelegate : IOSApplication {
-			public AppDelegate(): base(new MyApplicationListener(), getConfig()) {
+			public AppDelegate(): base(new ExampleWrapper(), getConfig()) {
 
 			}
 
