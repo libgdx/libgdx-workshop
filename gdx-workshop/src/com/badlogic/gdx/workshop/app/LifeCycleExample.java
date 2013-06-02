@@ -1,4 +1,4 @@
-package com.badlogic.gdx.workshop;
+package com.badlogic.gdx.workshop.app;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;

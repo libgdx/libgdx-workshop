@@ -2,6 +2,7 @@ package com.badlogic.gdx.workshop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.badlogic.gdx.workshop.app.LifeCycleExample;
 
 public class DesktopStarter {
 	public static void main(String[] args) {
