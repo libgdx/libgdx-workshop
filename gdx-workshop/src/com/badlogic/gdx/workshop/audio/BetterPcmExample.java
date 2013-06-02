@@ -65,6 +65,8 @@ public class BetterPcmExample extends ApplicationAdapter {
 						recordedBuffers.add(buffer);
 					}
 				}
+				
+				recorder.dispose();
 			}
 		}).start();
 		
@@ -92,6 +94,8 @@ public class BetterPcmExample extends ApplicationAdapter {
 							freeBuffers.add(buffer);
 						}
 					}
+					
+					device.dispose();
 				}
 			}
 		}).start();
