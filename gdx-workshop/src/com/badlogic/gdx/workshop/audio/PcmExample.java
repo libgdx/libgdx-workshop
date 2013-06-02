@@ -11,8 +11,11 @@ import com.badlogic.gdx.audio.AudioRecorder;
  * {@link AudioRecorder}, outputs it via
  * an {@link AudioDevice}. You should use
  * headphones, otherwise you will get feedback.
+ * This example is not perfect, playback and
+ * recording should happen on separate threads.
+ * You'll hear click noises.
  * Processing is done on a separate thread. This
- * will not work on iOS and HTML5.
+ * will not work on iOS and HTML5. 
  * @author badlogic
  *
  */
@@ -39,9 +42,9 @@ public class PcmExample extends ApplicationAdapter {
 				AudioRecorder recorder = Gdx.audio.newAudioRecorder(44100, true);
 				
 				// we need a buffer of shorts to store the recorded data
-				// and pass it to the device. This equals roughly 1/10th 
+				// and pass it to the device. This equals 1/10th 
 				// of a second of PCM data.
-				short[] pcmBuffer = new short[4096];
+				short[] pcmBuffer = new short[4410];
 				
 				// read data from the recorder, push it to the device
 				// until app is closed
