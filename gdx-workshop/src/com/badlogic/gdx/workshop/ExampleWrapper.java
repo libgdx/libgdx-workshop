@@ -1,9 +1,7 @@
 package com.badlogic.gdx.workshop;
 
 import com.badlogic.gdx.ApplicationListener;
-import com.badlogic.gdx.workshop.audio.BetterPcmExample;
-import com.badlogic.gdx.workshop.audio.MusicExample;
-import com.badlogic.gdx.workshop.audio.PcmExample;
+import com.badlogic.gdx.workshop.graphics.basic.GraphicsQueryingExample;
 
 /**
  * Instantiates an {@link ApplicationListener} in the {@link #create()} method. Set
@@ -17,7 +15,7 @@ public class ExampleWrapper implements ApplicationListener {
 	
 	@Override
 	public void create() {
-		listener = new BetterPcmExample();
+		listener = new GraphicsQueryingExample();
 		listener.create();
 	}
 
