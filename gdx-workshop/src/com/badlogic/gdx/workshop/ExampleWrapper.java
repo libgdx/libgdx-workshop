@@ -3,6 +3,7 @@ package com.badlogic.gdx.workshop;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.workshop.graphics.basic.FullscreenExample;
 import com.badlogic.gdx.workshop.graphics.basic.GraphicsQueryingExample;
+import com.badlogic.gdx.workshop.graphics.basic.NonContinuousExample;
 import com.badlogic.gdx.workshop.graphics.basic.VsynchExample;
 
 /**
@@ -17,7 +18,7 @@ public class ExampleWrapper implements ApplicationListener {
 	
 	@Override
 	public void create() {
-		listener = new FullscreenExample();
+		listener = new NonContinuousExample();
 		listener.create();
 	}
 
