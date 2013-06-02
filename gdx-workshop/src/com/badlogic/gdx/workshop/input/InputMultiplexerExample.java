@@ -6,6 +6,15 @@ import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.InputMultiplexer;
 import com.badlogic.gdx.InputProcessor;
 
+/**
+ * Demonstrates how to use an {@link InputMultiplexer} so
+ * different code paths (InputProcessors) can handle
+ * different input events. This is useful if you want to
+ * separate UI input event handling from game input event
+ * handling.
+ * @author badlogic
+ *
+ */
 public class InputMultiplexerExample extends ApplicationAdapter {
 	@Override
 	public void create() {
