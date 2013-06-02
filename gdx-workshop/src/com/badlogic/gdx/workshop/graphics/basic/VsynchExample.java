@@ -10,7 +10,7 @@ import com.badlogic.gdx.graphics.FPSLogger;
  * and will synch the {@link ApplicationListener#render()}
  * method to the screen refresh rate, which avoids tearing.
  * Really only relevant on desktop, no effect on mobile/HTML.
- * Vsynch is always enabled on those platforms.
+ * Vsynch is always enabled on those platforms.g
  * @author badlogic
  *
  */
