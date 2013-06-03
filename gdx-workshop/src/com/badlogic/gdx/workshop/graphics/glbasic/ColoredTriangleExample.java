@@ -8,8 +8,9 @@ import com.badlogic.gdx.graphics.VertexAttribute;
 
 /**
  * Demonstrates how to create a colored triangle mesh
- * and draw it to the screen. Uses OpenGL ES 1.0, 
- * won't work on iOS, HTML5!
+ * and draw it to the screen. The mesh needs to be
+ * dispoed when no longer used, via a call to {@link Mesh#dispose()}. 
+ * Uses OpenGL ES 1.0, won't work on iOS, HTML5!
  * @author badlogic
  *
  */

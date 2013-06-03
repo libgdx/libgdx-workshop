@@ -10,8 +10,9 @@ import com.badlogic.gdx.graphics.VertexAttribute;
 /**
  * Demonstrates how to create a colored triangle mesh
  * and draw it to the screen. Colors are packed
- * into 32-bit RGBA values. Uses OpenGL ES 1.0, 
- * won't work on iOS, HTML5!
+ * into 32-bit RGBA values. The mesh needs to be
+ * disposed when no longer used, via call to {@link Mesh#dispose()}. 
+ * Uses OpenGL ES 1.0, won't work on iOS, HTML5!
  * @author badlogic
  *
  */
