@@ -2,6 +2,7 @@ package com.badlogic.gdx.workshop;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.workshop.graphics.glbasic.BlendedRectangleExample;
+import com.badlogic.gdx.workshop.graphics.glbasic.OrthographicCameraExample;
 
 /**
  * Instantiates an {@link ApplicationListener} in the {@link #create()} method. Set
@@ -15,7 +16,7 @@ public class ExampleWrapper implements ApplicationListener {
 	
 	@Override
 	public void create() {
-		listener = new BlendedRectangleExample();
+		listener = new OrthographicCameraExample();
 		listener.create();
 	}
 
