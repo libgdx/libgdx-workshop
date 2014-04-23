@@ -15,7 +15,7 @@ import com.badlogic.gdx.Graphics;
 public class NonContinuousExample extends ApplicationAdapter {
 	@Override
 	public void create() {
-		Gdx.graphics.setContinuousRendering(true);
+		Gdx.graphics.setContinuousRendering(false);
 	}
 
 	@Override
